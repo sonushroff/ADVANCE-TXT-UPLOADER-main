@@ -38,3 +38,4 @@ youtube-dl
 pycurl
 m3u8
 pytube
+ffmpeg-python==0.2.0
