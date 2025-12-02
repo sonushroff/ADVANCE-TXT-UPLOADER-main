@@ -1,9 +1,16 @@
-__pycache__
 .git
+.gitignore
 .env
+.vscode
+__pycache__
 *.pyc
 *.pyo
 *.pyd
+*.log
 *.sqlite3
 node_modules
 *.zip
+dist
+build
+tests
+youtube_cookies.txt
