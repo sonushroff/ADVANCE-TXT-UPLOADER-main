@@ -13,9 +13,9 @@ def required_env(name: str) -> str:
     return val
 
 # Use required_env for critical secrets so container fails fast if not set.
-API_ID = int(required_env("API_ID"))
-API_HASH = required_env("API_HASH")
-BOT_TOKEN = required_env("BOT_TOKEN")
+API_ID = int(required_env("API_ID"26271673"))
+API_HASH = required_env("API_HASH"0e807111856890e4770b3e5a3324ec5f")
+BOT_TOKEN = required_env("BOT_TOKEN"8276591766:AAFDGk1RUJPPLsXs-pxk5aHxreKHYIskS3w")
 
 # Optional: path to cookies file (default to repo path if provided)
 COOKIES_FILE_PATH = os.environ.get("COOKIES_FILE_PATH", "youtube_cookies.txt")
